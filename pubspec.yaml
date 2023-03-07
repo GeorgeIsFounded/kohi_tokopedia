@@ -1,0 +1,43 @@
+name: tokopedia
+version: 1.0.0+1
+publish_to: none
+description: A new Flutter project.
+environment:
+  sdk: ">=2.18.2 <3.0.0"
+
+dependencies:
+  carousel_slider: ^4.2.1
+  cloud_firestore: ^4.3.2
+  cupertino_icons: ^1.0.2
+  external_app_launcher: ^3.1.0
+  file_picker: ^5.2.5
+  firebase_auth: ^4.2.5
+  firebase_core: ^2.4.1
+  firebase_storage: ^11.0.13
+  flutter:
+    sdk: flutter
+  flutter_facebook_auth: ^5.0.7
+  flutter_flicker: ^0.94.2
+  get: 4.6.5
+  google_sign_in: ^5.4.4
+  intl: ^0.17.0
+  intl_phone_number_input: ^0.7.2
+  pinput: ^2.2.5
+  step_progress_indicator: ^1.0.2
+  url_launcher: ^6.1.8
+
+dev_dependencies:
+  flutter_lints: ^2.0.0
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+fonts:
+  - family: Inter
+    fonts:
+      - asset: assets/Inter/static/Inter-Black.ttf
+  - family: RalewayL
+    fonts:
+      - asset: assets/Raleway-Light.ttf
