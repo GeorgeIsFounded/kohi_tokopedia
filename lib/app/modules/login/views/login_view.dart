@@ -168,7 +168,7 @@ class LoginView extends GetView<LoginController> {
                                       backgroundColor: Colors.white,
                                       minimumSize: Size(200, 50),
                                     ),
-                                    onPressed: () {},
+                                    onPressed: () {authController.signInWithFacebook();},
                                     child: Row(
                                       mainAxisAlignment:
                                           MainAxisAlignment.center,

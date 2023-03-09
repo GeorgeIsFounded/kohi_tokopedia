@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>   
+    <string name="app_name">tokopedia.tokopedia</string>
+    <string name="facebook_app_id">535200335418900</string>
+    <string name="fb_login_protocol_scheme">fb535200335418900</string>
+    <string name="facebook_client_token">88d5eb38dc90a93956f1289429d23010</string>
+</resources>
